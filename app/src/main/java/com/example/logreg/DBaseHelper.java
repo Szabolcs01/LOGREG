@@ -36,7 +36,7 @@ public class DBaseHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    public Cursor adatLekerdezes(){
+    public Cursor adat(){
         SQLiteDatabase db = this.getWritableDatabase();
         return db.rawQuery("SELECT * FROM "+FELHASZNALO_TABLE, null);
     }

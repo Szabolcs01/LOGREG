@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:textSize="25sp"
         android:hint="Felhasználónév"
-        android:id="@+id/et_user_input"
+        android:id="@+id/felhasznalo"
         />
     <EditText
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
         android:textSize="25sp"
         android:inputType="textPassword"
         android:hint="Jelszó"
-        android:id="@+id/et_password_input"
+        android:id="@+id/password"
         />
 
     <Button

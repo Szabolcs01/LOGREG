@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    tools:context=".register"
      >
 
     <EditText
@@ -20,7 +21,7 @@
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:hint="Felhasználónév"
-        android:id="@+id/re_user"
+        android:id="@+id/re_teljesNev"
         />
     <EditText
         android:layout_width="match_parent"
@@ -35,7 +36,7 @@
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:hint="Teljes név"
-        android:id="@+id/re_fullName"
+        android:id="@+id/re_felhasznaloNev"
         />
     <Button
         android:id="@+id/regisztracioelkuldese"
